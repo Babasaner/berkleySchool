@@ -31,6 +31,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
 <!-- banner -->
+
 <div class="main_section_agile" id="home">
 	<div class="agileits_w3layouts_banner_nav">
 		<nav class="navbar navbar-default">
@@ -305,103 +306,22 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="w3layouts_header">
 			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
 		</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g1.jpg" class="swipebox"><img src="images/g1.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g2.jpg" class="swipebox"><img src="images/g2.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g3.jpg" class="swipebox"><img src="images/g3.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g7.jpg" class="swipebox"><img src="images/g7.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g5.jpg" class="swipebox"><img src="images/g5.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
+		<?php 
+				$bdd = new PDO('mysql:host=localhost;dbname=project2', 'root', '');
+				$images = $bdd->query('SELECT * from photos LIMIT 0,12');
+				while($image = $images->fetch()){
+				echo '<div class="col-md-3 col-xs-3 gallery-grid gallery1">
+						<a href="'.$image['lien'].'" class="swipebox"><img src="'.$image['lien'].'"  alt="/" width=600 height=420>
+							<div class="textbox">
+							<h4>'.$image['description'].'</h4>
+								<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
+							</div>
 					</a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g6.jpg" class="swipebox"><img src="images/g6.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-					   </div>
-				   </a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g11.jpg" class="swipebox"><img src="images/g11.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-					   </div>
-				   </a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g8.jpg" class="swipebox"><img src="images/g8.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-					   </div>
-				   </a>
-				</div>
-					<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g9.jpg" class="swipebox"><img src="images/g9.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g10.jpg" class="swipebox"><img src="images/g10.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g4.jpg" class="swipebox"><img src="images/g4.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="col-md-3 col-xs-3 gallery-grid gallery1">
-					<a href="images/g12.jpg" class="swipebox"><img src="images/g12.jpg" class="img-responsive" alt="/">
-						<div class="textbox">
-						<h4>scholarly</h4>
-							<p><i class="fa fa-picture-o" aria-hidden="true"></i></p>
-						</div>
-				</a>
-				</div>
-				<div class="clearfix"> </div>
+					</div>';
+					
+				}
+				?>
+<div class="clearfix"> </div>';				
 </section>
 <!-- //gallery -->
 <!-- team -->
@@ -587,7 +507,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 </div>
-<div id="map"></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.6833397314917!2d-17.468925585591393!3d14.73048657783058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10d52c0000001%3A0xeaaac5a42f00a22a!2sEnsup+Afrique!5e0!3m2!1sfr!2ssn!4v1537326136373" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 <!-- footer -->
 <div class="footer">
 	<div class="container">
@@ -701,7 +621,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 </div>
-<div id="map"></div>
+<div id="map">
+	
+</div>
 <!-- footer -->
 <div class="footer">
 	<div class="container">
@@ -757,23 +679,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Baneer-js -->
 
 <!-- Map-JavaScript -->
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>        
-			<script type="text/javascript">
-				google.maps.event.addDomListener(window, 'load', init);
-				function init() {
-					var mapOptions = {
-						zoom: 11,
-						center: new google.maps.LatLng(40.6700, -73.9400),
-						styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-					};
-					var mapElement = document.getElementById('map');
-					var map = new google.maps.Map(mapElement, mapOptions);
-					var marker = new google.maps.Marker({
-						position: new google.maps.LatLng(40.6700, -73.9400),
-						map: map,
-					});
-				}
-			</script>
+			
 		<!-- //Map-JavaScript -->
 
 <!-- smooth scrolling -->

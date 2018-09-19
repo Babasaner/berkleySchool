@@ -94,7 +94,7 @@
 							</td>
 							<td>
 								
-				<a href="home.php?teacher=teacher-del&teacherid=<?php echo $teacher_info_admin['t_id']; ?>" class="btn red">Delete</a>
+				<a href="home.php?teacher=teacher-del&teacherid=<?php echo $teacher_info_admin['t_id']; ?>" class="btn btn-danger">Delete</a>
 					</td>
 						</tr>
 						<?php $t_sn++; } ?>

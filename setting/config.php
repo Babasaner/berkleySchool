@@ -220,5 +220,10 @@ class project2
 			}
 			return 	$Nepdev_Run;
 	}
+	public function getAllImages(){
+		$req = "SELECT * FROM photos";
+		$reponse = $this->connectdb->query($Nepdev_Add);
+		return $reponse;
+	}
 	}
 $ravi = new project2;
