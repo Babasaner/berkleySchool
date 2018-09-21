@@ -109,7 +109,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
                             <div class="ei-title">
                                 <h2>Insecure</h2>
                                 <h3>Hussler</h3>
-                            </div>
                         </li>
                         <li>
                             <img src="images/larges/5.jpg" alt="image05"/>
@@ -787,6 +786,8 @@ jQuery(function($) {
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
         <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
         <script type="text/javascript">
             $(function() {
                 $('#ei-slider').eislideshow({
