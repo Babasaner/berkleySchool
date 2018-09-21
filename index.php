@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-<title>Scholarly an Education Category Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>BERKELEY</title>
 <!-- Meta tag Keywords -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -23,6 +23,12 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome-Icons-CSS -->
 <link rel="stylesheet" href="css/swipebox.css">
 <link rel="stylesheet" href="css/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/style2.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Playfair+Display:400italic' rel='stylesheet' type='text/css' />
+<noscript>
+	<link rel="stylesheet" type="text/css" href="css/noscript.css" />
+</noscript>
 <!-- //css files -->
 <!-- online-fonts -->
 <link href="//fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,latin-ext" rel="stylesheet">
@@ -31,6 +37,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
 <!-- banner -->
+
 <div class="main_section_agile" id="home">
 	<div class="agileits_w3layouts_banner_nav">
 		<nav class="navbar navbar-default">
@@ -44,6 +51,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<h1><a class="navbar-brand" href="index.html"><i class="fa fa-leanpub" aria-hidden="true"></i> BERKELEY</a></h1>
 
 			</div>
+<<<<<<< HEAD
 			<div class="w3layouts_header_right">
 			    <form action="#" method="post">
 					<input name="Search here" type="search" placeholder="Search" required="">
@@ -54,6 +62,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				
 			<!--	<li><a href="#" data-toggle="modal" data-target="#myModal3"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Sign Up</a> </li> -->
 			</ul>
+=======
+			
+>>>>>>> 25fae06df74e65e5a6ed9bad4b25a4e57c1edf2f
 			
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
@@ -76,12 +87,68 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- banner -->
 <div class="about-bottom">
 	<div class="col-md-6 w3l_about_bottom_left">
+<<<<<<< HEAD
 		<div class="video-grid-single-page-agileits">
 			<div data-video="E91gAjunqOM" id="video"> <img src="images/1.jpg" alt="" class="img-responsive" /> </div>
 		</div>
 		<div class="w3l_about_bottom_left_video">
 			<h4>watch our video</h4>
 		</div>
+=======
+	<div id="ei-slider" class="ei-slider">
+                    <ul class="ei-slider-large">
+						<li>
+                            <img src="images/larges/6.jpg" alt="image06"/>
+                            <div class="ei-title">
+                                <h2>Passionate</h2>
+                                <h3>Seeker</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/larges/1.jpg" alt="image01" />
+                            <div class="ei-title">
+                                <h2>Creative</h2>
+                                <h3>Duet</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/larges/2.jpg" alt="image02" />
+                            <div class="ei-title">
+                                <h2>Friendly</h2>
+                                <h3>Devil</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/larges/3.jpg" alt="image03"/>
+                            <div class="ei-title">
+                                <h2>Tranquilent</h2>
+                                <h3>Compatriot</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/larges/4.jpg" alt="image04"/>
+                            <div class="ei-title">
+                                <h2>Insecure</h2>
+                                <h3>Hussler</h3>
+                        </li>
+                        <li>
+                            <img src="images/larges/5.jpg" alt="image05"/>
+                            <div class="ei-title">
+                                <h2>Loving</h2>
+                                <h3>Rebel</h3>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/larges/7.jpg" alt="image07"/>
+                            <div class="ei-title">
+                                <h2>Crazy</h2>
+                                <h3>Friend</h3>
+                            </div>
+                        </li>
+                    </ul><!-- ei-slider-large -->
+                  <!-- ei-slide  r-thumbs -->
+                </div><!-- ei-slider -->
+>>>>>>> 25fae06df74e65e5a6ed9bad4b25a4e57c1edf2f
 	</div>
 	<div class="col-md-6 w3l_about_bottom_right one" id="demande" >
 		<div class="abt-w3l">
@@ -198,7 +265,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- about -->
 <div class="about-top" id="about">
 	<div class="container">
-		<h3 class="w3l-title">About Us</h3>
+		<h3 class="w3l-title">Mot du directeur</h3>
 		<div class="w3layouts_header">
 			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
 		</div>
@@ -207,14 +274,18 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<img src="images/3.jpg" heigth="50%" alt="">
 			</div>
 			<div class="wthree-services-right">
+<<<<<<< HEAD
 				<img src="images/1.jpg"  alt="">
+=======
+				<img src="images/6ff81fe2-dbf0-4c38-bb78-71b05c3e661e.JPG" alt="" heigth=500 width=450>
+>>>>>>> 25fae06df74e65e5a6ed9bad4b25a4e57c1edf2f
 			</div>
 			<div class="clearfix"> </div>
 		</div>
 		<div class="col-md-5 wthree-about-grids">
-			<h4>Welcome to Our University</h4>
-			<a href="#" class="trend-w3l" data-toggle="modal" data-target="#myModal"><span>Read More</span></a>
-			<a href="#mail" class="trend-w3l scroll"><span>Get In Touch</span></a>
+			<h4>Bienvenu a BERKELEY<br><span class="small">Ensure your futur</span></h4>
+			<a href="#" class="trend-w3l" data-toggle="modal" data-target="#myModal"><span>plus...</span></a>
+			<a href="#mail" class="trend-w3l scroll"><span>Contacter nous</span></a>
 		</div>
 		<div class="clearfix"> </div>
 	</div>
@@ -243,25 +314,25 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				<i class="fa fa-users" aria-hidden="true"></i>
 				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='12760' data-delay='.5' data-increment="1">12760</div>
 				
-				<h4 class="stats-info">FOREIGN FOLLOWERS</h4>
+				<h4 class="stats-info">Nombre d'élèves</h4>
 			</div>
 			<div class="col-md-3 col-xs-3 stats-grid slideanim">
 				<i class="fa fa-book" aria-hidden="true"></i>
 				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='31000' data-delay='.5' data-increment="1">31000</div>
 				
-				<h4 class="stats-info">CLASSES COMPLETE</h4>
+				<h4 class="stats-info">Nombre de classes</h4>
 			</div>
 			<div class="col-md-3 col-xs-3 stats-grid slideanim">
-				<i class="fa fa-trophy" aria-hidden="true"></i>
+				<i class="fa fa-users" aria-hidden="true"></i>
 				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='79000' data-delay='.5' data-increment="10">79000</div>
 				
-				<h4 class="stats-info">STUDENTS ENROLLED</h4>
+				<h4 class="stats-info">Nombre d'admis au bac</h4>
 			</div>
 			<div class="col-md-3 col-xs-3 stats-grid slideanim">
-					<i class="fa fa-user" aria-hidden="true"></i>
+					<i class="fa fa-users" aria-hidden="true"></i>
 				<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='600' data-delay='.5' data-increment="1">600</div>
 			
-				<h4 class="stats-info">CERTIFIED TEACHERS</h4>
+				<h4 class="stats-info">Nombre d'admis au BFEM</h4>
 			</div>
 			<div class="clearfix"></div>
 		</div>
@@ -307,7 +378,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
 		</div>
 		<?php 
+<<<<<<< HEAD
 				$bdd = new PDO('mysql:host=localhost;dbname=berkeleybd', 'root', '');
+=======
+				$bdd = new PDO('mysql:host=localhost;dbname=project2', 'root', '');
+>>>>>>> 25fae06df74e65e5a6ed9bad4b25a4e57c1edf2f
 				$images = $bdd->query('SELECT * from photos LIMIT 0,12');
 				while($image = $images->fetch()){
 				echo '<div class="col-md-3 col-xs-3 gallery-grid gallery1">
@@ -442,7 +517,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	?>
 <div id="mail" class="contact">
 	<div class="container">
+<<<<<<< HEAD
 		<h3 class="w3l-title">CONTACTS</h3>
+=======
+		<h3 class="w3l-title">Nos Contacts</h3>
+>>>>>>> 25fae06df74e65e5a6ed9bad4b25a4e57c1edf2f
 		<div class="w3layouts_header">
 			<p><i class="fa fa-graduation-cap" aria-hidden="true"></i></p>
 		</div>
@@ -452,9 +531,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<i class="fa fa-map-marker" aria-hidden="true"></i>
 				</div>
 				<div class="agile_contact_grid_right agilew3_contact">
-					<h4>Address</h4>
+					<h4>Adresse</h4>
 					<p><?php echo $general_fetch['website_address']; ?></p>
+<<<<<<< HEAD
 					<p>Dakar</p>
+=======
+					<p>Rue</p>
+>>>>>>> 25fae06df74e65e5a6ed9bad4b25a4e57c1edf2f
 				</div>
 			</div>
 			<div class="col-md-4 col-xs-4 w3_agile_contact_grid">
@@ -462,7 +545,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 					<i class="fa fa-mobile" aria-hidden="true"></i>
 				</div>
 				<div class="agile_contact_grid_right agileits_w3layouts_right">
+<<<<<<< HEAD
 					<h4>téléphone</h4>
+=======
+					<h4>Téléphone</h4>
+>>>>>>> 25fae06df74e65e5a6ed9bad4b25a4e57c1edf2f
 					<p><?php echo $general_fetch['website_phone1']; ?> <span><?php echo $general_fetch['website_phone2']; ?></span></p>
 				</div>
 			</div>
@@ -491,7 +578,11 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							<input type="email" name="E-mail" placeholder="E-mail" required="">
 						</div>
 						<div class="col-md-6 col-xs-6 wthree_contact_left_grid">
+<<<<<<< HEAD
 							<label>NumTel*</label>
+=======
+							<label>Numéro téléphone*</label>
+>>>>>>> 25fae06df74e65e5a6ed9bad4b25a4e57c1edf2f
 							<input type="text" name="number" placeholder="Phone Number" required="">
 							<label>Sujet*</label>
 							<input type="text" name="subject" placeholder="Subject" required="">
@@ -507,28 +598,28 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 </div>
-<div id="map"></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.6833397314917!2d-17.468925585591393!3d14.73048657783058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec10d52c0000001%3A0xeaaac5a42f00a22a!2sEnsup+Afrique!5e0!3m2!1sfr!2ssn!4v1537326136373" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 <!-- footer -->
 <div class="footer">
 	<div class="container">
 		<div class="wthree_footer_grid_left">
 			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1">
-				<h4>About Us</h4>
+				<h4>A propos de nous</h4>
 				<p><?php echo $general_fetch['web_about']; ?></p>
 			</div>
 			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1">
 				<h4>Navigation</h4>
 				<ul>
-					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="index.html">Home</a></li>
-					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#about" class="scroll">About Us</a></li>
-					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#services" class="scroll">Services</a></li>
-					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#team" class="scroll">Team</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="index.html">Accueil</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#about" class="scroll">A propos de nous</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#services" class="scroll">Informations Générales</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#team" class="scroll">Pédagogie</a></li>
 					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#gallery" class="scroll">Gallery</a></li>
-					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#mail" class="scroll">Mail Us</a></li>
+					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#mail" class="scroll">Nous contacter</a></li>
 				</ul>
 			</div>
 			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1 w3l-3">
-				<h4>Others</h4>
+				<h4>Autres</h4>
 				<ul>
 					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">Media</a></li>
 					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">Mobile Apps</a></li>
@@ -536,7 +627,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</ul>
 			</div>
 			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1 wthree_footer_grid_right1">
-				<h4>Contact Us</h4>
+				<h4>Contacts</h4>
 				<ul>
 					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@example.com"><?php echo $general_fetch['website_email1']; ?></a></li>
 					<li><i class="fa fa-phone" aria-hidden="true"></i><?php echo $general_fetch['website_phone1']; ?></li>
@@ -549,7 +640,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 </div>
 <div class="w3layouts_copy_right">
 	<div class="container">
-		<p>© <?php echo $general_fetch['website_start']; ?> - 2018 Scholarly. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a> Developed By Ravi Khadka</p>
+		<p>© <?php echo $general_fetch['website_start']; ?> BERKELEY. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a> Developed By Ravi Khadka</p>
 	</div>
 </div>
 	<?php } else{ ?>
@@ -621,13 +712,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 </div>
-<div id="map"></div>
+<div id="map">
+	
+</div>
 <!-- footer -->
 <div class="footer">
 	<div class="container">
 		<div class="wthree_footer_grid_left">
 			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1">
-				<h4>About Us</h4>
+				<h4>A propos de BERKELEY</h4>
 				<p><?php echo "Write About ur Business"; ?></p>
 			</div>
 			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1">
@@ -642,7 +735,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</ul>
 			</div>
 			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1 w3l-3">
-				<h4>Others</h4>
+				<h4>Autres</h4>
 				<ul>
 					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">Media</a></li>
 					<li><i class="fa fa-angle-double-right" aria-hidden="true"></i><a href="#">Mobile Apps</a></li>
@@ -650,7 +743,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</ul>
 			</div>
 			<div class="col-md-3 col-xs-3 wthree_footer_grid_left1 wthree_footer_grid_right1">
-				<h4>Contact Us</h4>
+				<h4>Contacts</h4>
 				<ul>
 					<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:info@example.com"><?php echo $general_fetch['website_email1']; ?></a></li>
 					<li><i class="fa fa-phone" aria-hidden="true"></i><?php echo "Business Phone No"; ?></li>
@@ -661,9 +754,13 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 	</div>
 </div>
-<div class="w3layouts_copy_right">
+<div class="w3layouts_copy">
 	<div class="container">
+<<<<<<< HEAD
 		<p>© <?php echo $general_fetch['website_start']; ?> - 2018 Scholarly. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a> Developed SenTech</p>
+=======
+		<p>© <?php echo $general_fetch['website_start']; ?> BERKELEY. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts.</a> Developpé par SenTech/p>
+>>>>>>> 25fae06df74e65e5a6ed9bad4b25a4e57c1edf2f
 	</div>
 </div>
 	<?php }?>
@@ -677,23 +774,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Baneer-js -->
 
 <!-- Map-JavaScript -->
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>        
-			<script type="text/javascript">
-				google.maps.event.addDomListener(window, 'load', init);
-				function init() {
-					var mapOptions = {
-						zoom: 11,
-						center: new google.maps.LatLng(40.6700, -73.9400),
-						styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
-					};
-					var mapElement = document.getElementById('map');
-					var map = new google.maps.Map(mapElement, mapOptions);
-					var marker = new google.maps.Marker({
-						position: new google.maps.LatLng(40.6700, -73.9400),
-						map: map,
-					});
-				}
-			</script>
+			
 		<!-- //Map-JavaScript -->
 
 <!-- smooth scrolling -->
@@ -752,7 +833,21 @@ jQuery(function($) {
 	 });
 	</script>
 <!-- //Calendar -->	
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.eislideshow.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('#ei-slider').eislideshow({
+					animation			: 'center',
+					autoplay			: true,
+					slideshow_interval	: 3000,
+					titlesFactor		: 0
+                });
+            });
+        </script>
 <!-- //js-scripts -->
 </body>
 </html>

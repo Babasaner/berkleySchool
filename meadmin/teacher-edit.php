@@ -88,7 +88,7 @@
 							</td>
 							<td>
 								
-				<a href="home.php?ravi=teacher-editnow&teacherid=<?php echo $teacher_info_admin['t_id']; ?>" class="btn red">Edit</a>
+				<a href="home.php?ravi=teacher-editnow&teacherid=<?php echo $teacher_info_admin['t_id']; ?>" class="btn btn-primary">Edit</a>
 					</td>
 						</tr>
 						<?php $t_sn++; } ?>
