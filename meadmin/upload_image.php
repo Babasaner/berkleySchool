@@ -105,7 +105,7 @@
 					{
 						$errors = array();
 						$uploadedFiles = array();
-						$extension = array("jpeg","jpg","png","gif");
+						$extension = array("jpeg","jpg","png","gif","JPG");
 						$tailleMax = 2097152;
 						$UploadFolder = "../images";
 
